@@ -3,6 +3,11 @@ php
 
 Install php packages
 
+Dependencies
+------------
+
+- evannook.sysbase
+
 Example Playbook
 ----------------
 
