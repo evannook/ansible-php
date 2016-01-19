@@ -11,4 +11,6 @@ galaxy_info:
   galaxy_tags:
     - php
     - web
-dependencies: []
+    - debian
+dependencies:
+  - evannook.sysbase

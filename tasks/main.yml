@@ -1,6 +1,6 @@
 ---
 - name: install php components
-  apt: "pkg={{ item }} state=latest update_cache=yes"
+  apt: "pkg={{ item }} state=latest"
   with_items:
     - php5-fpm
     - php5-mysqlnd
