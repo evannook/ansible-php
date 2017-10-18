@@ -3,14 +3,14 @@
   - name: install php components
     apt: "pkg={{ item }} state=latest"
     with_items:
-      - php5-fpm
-      - php5-mysqlnd
-      - php5-apcu
-      - php5-curl
-      - php5-gd
-      - php5-imagick
-      - php5-mcrypt
-      - php5-ldap
-      - php5-geoip
+      - php-fpm
+      - php-mysql
+      - php7.0-opcache
+      - php-curl
+      - php-gd
+      - php-imagick
+      - php-mcrypt
+      - php-ldap
+      - php-geoip
   tags:
     - php
