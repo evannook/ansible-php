@@ -5,12 +5,14 @@
     with_items:
       - php-fpm
       - php-mysql
-      - php7.0-opcache
       - php-curl
       - php-gd
       - php-imagick
       - php-mcrypt
       - php-ldap
       - php-geoip
+      - php-zip
+      - php7.0-opcache
+      - php7.0-xml
   tags:
     - php
