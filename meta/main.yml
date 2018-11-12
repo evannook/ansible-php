@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: php
   author: William Wu
   description: Install php packages
   company: PyLabs
