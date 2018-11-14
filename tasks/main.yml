@@ -1,8 +1,9 @@
 ---
 - block:
   - name: install php components
-    apt: "pkg={{ item }} state=latest"
-    with_items:
+    apt: "pkg={{ packages }} state=latest"
+    vars:
+      packages:
       - php-fpm
       - php-mysql
       - php-curl
