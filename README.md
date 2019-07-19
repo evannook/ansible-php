@@ -1,7 +1,7 @@
 php
 ===
 
-Install php packages
+Install PHP packages
 
 Dependencies
 ------------

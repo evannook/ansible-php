@@ -13,7 +13,7 @@
       - php-ldap
       - php-geoip
       - php-zip
-      - php7.0-opcache
-      - php7.0-xml
+      - php-xml
+      - php7.3-opcache
   tags:
     - php
