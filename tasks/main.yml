@@ -9,7 +9,6 @@
       - php-curl
       - php-gd
       - php-imagick
-      - php-mcrypt
       - php-ldap
       - php-geoip
       - php-zip
