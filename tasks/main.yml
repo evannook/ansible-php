@@ -1,7 +1,7 @@
 ---
 - block:
   - name: install php components
-    apt: "pkg={{ packages }} state=latest"
+    ansible.builtin.apt: "pkg={{ packages }} state=latest"
     vars:
       packages:
       - php-fpm
